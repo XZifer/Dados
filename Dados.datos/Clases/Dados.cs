@@ -1,6 +1,6 @@
 ﻿using Dados.Modelos.Clases;
 
-namespace Dados.datos.Clases
+namespace Dados.Datos.Clases
 {
     public class Dados
     {

@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dados.Aplicacion", "Dados.A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dados.Logica", "Dados.Logica\Dados.Logica.csproj", "{31B9EA5F-0CA9-4F82-89F8-1500E4539F39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dados.datos", "Dados.datos\Dados.datos.csproj", "{694F79C0-A488-456B-88AD-B8CEDCE84BDF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dados.Datos", "Dados.datos\Dados.Datos.csproj", "{694F79C0-A488-456B-88AD-B8CEDCE84BDF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Dados.datos.Clases
+namespace Dados.Datos.Clases
 {
     public class JuegoDeDados
     {
