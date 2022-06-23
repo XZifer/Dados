@@ -10,9 +10,6 @@ namespace Dados.Datos.Clases
             d.valor = random.Next(1, 6);
             return d.valor;
         }
-        public string Imprimir(int v)
-        {
-           return v.ToString();
-        }
+       
     }    
 }
