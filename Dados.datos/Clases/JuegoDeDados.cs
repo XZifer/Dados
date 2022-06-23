@@ -28,5 +28,27 @@ namespace Dados.Datos.Clases
             ListaDeDados.Add(d2);   
             ListaDeDados.Add(d3);
         }
+        public string Jugar(List<Dado> ld)
+        {
+            Dados dados = new();
+            List<int> lista = new List<int>();
+            int salida;
+            foreach (Dado d in ld)
+            {
+                salida = dados.Tirar(d);
+                lista.Add(salida);  
+            }
+
+            if (lista[0] == lista[1]
+                && lista[1] == lista[2])
+            {
+                return "You Win!!";
+            }
+            else
+            {
+                return "You Lose!!";
+            }
+            
+        }
     }
 }
